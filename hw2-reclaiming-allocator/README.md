@@ -3,7 +3,8 @@ This is an allocator that reclaims free blocks of memory. It is an update on a s
 ## What I was given
 
 ## What I had to do
-
+"Begin with the pointer-bumping allocator of Project 0. Here, allocation was performed in a first-fit, address-ordered manner with no reclamation of free space. It was simple, but it worked.
+For this assignment, we want to alter that allocator. First, it must reclaim free space. Second, it must allocate from the collection of reclaimed blocks preferentially. That is, if the allocator can fulfill a request by using a block that was previously made free, then it must do so. Pointer bumping allocation should only be employed when no reclaimed blocks can satisfy the request." - Professor Scott F Kaplan
 ## How I did it
 * Created a link struct to keep track of freed blocks of memory (lines 41-53)
 * Put a pointer to the link that stores the first freed block in the Globals (line 70)
