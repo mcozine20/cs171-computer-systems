@@ -13,6 +13,6 @@ For this assignment, we want to alter that allocator. First, it must reclaim fre
 * Rewrote main to allocate and free a number of different blocks in order to test the code (lines 307-324)
 ## Built With
 * C
-## Contributers
+## Contributors
 * Professor Scott F Kaplan
 * McLean Cozine
